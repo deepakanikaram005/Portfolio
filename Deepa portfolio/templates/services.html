@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+
+  <title>Services | Kanikaram Dedeepya Sree</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #e6e6fa;
+      color: #222;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 10%;
+      background-color: #fff;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      color: #9333ea;
+    }
+    .nav-links {
+      display: flex;
+      gap: 25px;
+      list-style: none;
+    }
+    .nav-links a {
+      color: #222;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .nav-links a:hover {
+      color: #9333ea;
+    }
+    section {
+      padding: 100px 10%;
+      text-align: center;
+    }
+    h1 {
+      color: #9333ea;
+      margin-bottom: 30px;
+    }
+    .services-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+    .service-box {
+      width: 300px;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+    .service-box h3 {
+      color: #9333ea;
+      margin-bottom: 10px;
+    }
+    .service-box p {
+      font-size: 15px;
+      color: #444;
+      line-height: 1.6;
+    }
+    @media (max-width: 768px) {
+      .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .services-list {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  
+  <nav>
+    <div class="logo">Dedeepya</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Service</a></li>
+      
+      <li><a href="resume.html">Resume</a></li>
+      
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    
+
+  </nav>
+
+  
+  <section>
+    <h1>My Services</h1>
+    <div class="services-list">
+      <div class="service-box">
+        <h3>🌐 Web Development</h3>
+        <p>Creating responsive and user-friendly websites using HTML, CSS, JavaScript, and modern tools like Flask and React.</p>
+      </div>
+      <div class="service-box">
+        <h3>📊 Data Analysis</h3>
+        <p>Analyzing and visualizing data using Excel, Powerbi and Tableau to gain insights and solve business problems.</p>
+      </div>
+      <div class="service-box">
+        <h3>🤖 Machine Learning</h3>
+        <p>Building predictive models and classification systems using supervised and unsupervised learning algorithms.</p>
+      </div>
+      <div class="service-box">
+        <h3>☕ Java Development</h3>
+        <p>Designing object-oriented applications using Java including desktop apps, and problem solving.</p>
+      </div>
+    </div>
+  </section>
+  
+
+
+</body>
+</html>
